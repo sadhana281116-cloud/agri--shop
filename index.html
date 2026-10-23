@@ -1,0 +1,205 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Agri Shop - Farmers Online Selling</title>
+
+    <!-- Connect the CSS file -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Navigation Bar -->
+    <header>
+        <nav class="navbar">
+            <div class="logo">🌿 Agri Shop</div>
+
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#products">Products</a></li>
+                <li><a href="#farmers">Our Farmers</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Home Section -->
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <p class="subtitle">FRESH FROM THE FARM</p>
+
+            <h1>Fresh Food, <span>Happy Farmers!</span></h1>
+
+            <p>
+                Buy fresh fruits, vegetables and grains directly
+                from farmers. Support local farmers and enjoy
+                quality agricultural products.
+            </p>
+
+            <a href="#products" class="btn">Explore Products</a>
+        </div>
+
+        <div class="hero-image">
+            <span>🌾 🥕 🍅</span>
+            <h3>Fresh • Natural • Local</h3>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section class="products section" id="products">
+
+        <div class="section-heading">
+            <p class="subtitle">OUR FARM PRODUCTS</p>
+            <h2>Featured Products</h2>
+            <p>Fresh agricultural products at sample prices.</p>
+        </div>
+
+        <div class="product-container">
+
+            <!-- Product 1 -->
+            <div class="product-card">
+                <div class="product-image spinach">🥬</div>
+
+                <div class="product-info">
+                    <h3>Fresh Spinach</h3>
+                    <p>Fresh green spinach from local farms.</p>
+                    <h4>₹30 / bunch</h4>
+
+                    <button onclick="addToCart('Fresh Spinach')">
+                        Add to Cart
+                    </button>
+                </div>
+            </div>
+
+            <!-- Product 2 -->
+            <div class="product-card">
+                <div class="product-image tomato">🍅</div>
+
+                <div class="product-info">
+                    <h3>Fresh Tomatoes</h3>
+                    <p>Fresh and ripe tomatoes for cooking.</p>
+                    <h4>₹40 / kg</h4>
+
+                    <button onclick="addToCart('Fresh Tomatoes')">
+                        Add to Cart
+                    </button>
+                </div>
+            </div>
+
+            <!-- Product 3 -->
+            <div class="product-card">
+                <div class="product-image rice">🌾</div>
+
+                <div class="product-info">
+                    <h3>Farm Rice</h3>
+                    <p>Quality rice sourced from farmers.</p>
+                    <h4>₹60 / kg</h4>
+
+                    <button onclick="addToCart('Farm Rice')">
+                        Add to Cart
+                    </button>
+                </div>
+            </div>
+
+            <!-- Product 4 -->
+            <div class="product-card">
+                <div class="product-image carrot">🥕</div>
+
+                <div class="product-info">
+                    <h3>Fresh Carrots</h3>
+                    <p>Crunchy carrots from local farms.</p>
+                    <h4>₹45 / kg</h4>
+
+                    <button onclick="addToCart('Fresh Carrots')">
+                        Add to Cart
+                    </button>
+                </div>
+            </div>
+
+        </div>
+
+        <p class="note">
+            Note: Product prices are examples for this mini project.
+        </p>
+    </section>
+
+    <!-- Farmers Section -->
+    <section class="farmers" id="farmers">
+
+        <div class="farmer-icon">👨‍🌾</div>
+
+        <div>
+            <p class="subtitle">SUPPORT OUR FARMERS</p>
+
+            <h2>From Farmers to Customers</h2>
+
+            <p>
+                Agri Shop helps farmers showcase their agricultural
+                products online and helps customers discover fresh
+                produce from local farms.
+            </p>
+        </div>
+
+    </section>
+
+    <!-- About Section -->
+    <section class="about section" id="about">
+
+        <div class="section-heading">
+            <h2>About Agri Shop</h2>
+        </div>
+
+        <p>
+            Agri Shop is a proposed online agricultural marketplace
+            designed to connect farmers and customers. The website
+            displays fruits, vegetables and grains in a simple and
+            user-friendly format. Our aim is to support farmers and
+            promote agricultural products through digital technology.
+        </p>
+
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact section" id="contact">
+
+        <div class="section-heading">
+            <p class="subtitle">GET IN TOUCH</p>
+            <h2>Contact Us</h2>
+            <p>Have questions? Contact our team.</p>
+        </div>
+
+        <div class="contact-card">
+            <p><strong>Email:</strong> support@agrishop.example</p>
+            <p><strong>Phone:</strong> +91 98765 43210</p>
+            <p>
+                <strong>Address:</strong>
+                Farmers Market, Chennai, Tamil Nadu
+            </p>
+
+            <p class="note">
+                These are sample contact details for the project.
+            </p>
+        </div>
+
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2026 Agri Shop - Farmers Online Selling</p>
+        <p>Supporting Farmers, Growing Together 🌱</p>
+    </footer>
+
+    <!-- Simple demonstration for Add to Cart -->
+    <script>
+        function addToCart(productName) {
+            alert(productName + " selected successfully!");
+        }
+    </script>
+
+</body>
+</html>
+```
